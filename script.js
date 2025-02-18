@@ -11,7 +11,7 @@ document.getElementById('login').addEventListener('submit',function(event) {
 
     //Aqui voce pode definir um usuario e senhe especificos 
 
-    if(username==='lindos' && password==='olhos' ) {
+    if(username==='Lindos' && password==='olhos' ) {
         document.getElementById('login-form').classList.add('hidden');
 
         document.getElementById('surpresa').classList.remove('hidden');
